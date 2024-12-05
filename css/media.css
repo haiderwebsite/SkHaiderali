@@ -1,0 +1,156 @@
+@media only screen and (max-width:992px) {
+  .profile-container img {
+    width: 50%;
+    height: 120%;
+  }
+
+  .profile-container ul {
+    justify-content: center;
+  }
+
+  .profile-container li {
+    margin: 0 5px;
+  }
+
+  .nav-section .nav-container {
+    width: 95%;
+    margin: 0 auto;
+    height: 100%;
+    border-radius: 10px;
+    float: left;
+    clear: both;
+    display: contents;
+  }
+
+  .nav-container .nav-box {
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    border-radius: 10px;
+    width: 20%;
+  }
+
+  .nav-section {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width:768px) {
+
+  html,
+  body {
+    font-size: 14px;
+  }
+
+  .nav-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0;
+  }
+
+  .profile-container img {
+    width: 70%;
+  }
+
+  .profile-container ul {
+    justify-content: center;
+  }
+
+  .profile-container li {
+    margin: 0 5px;
+  }
+
+
+  .nav-box .nav-innerbox {
+    width: 90px;
+    height: 80px;
+  }
+  .nav-section .nav-container {
+    width: 95%;
+    margin: 0 auto;
+    height: 100%;
+    border-radius: 10px;
+    float: left;
+    clear: both;
+    display: contents;
+  }
+
+  .nav-container .nav-box {
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    border-radius: 10px;
+    width: 20%;
+  }
+
+  .nav-section {
+    padding: 0;
+  }
+
+  /* .nav-container .nav-box {
+    width: 20%;
+    float: left;
+  }
+  .nav-box .nav-innerbox {
+    width: 100px;
+    height: 80px;
+  } */
+}
+
+@media only screen and (max-width:576px) {
+
+  html,
+  body {
+    font-size: 12px;
+  }
+
+  .profil {
+    margin: 10px 0;
+  }
+
+  .nav-container .nav-box {
+    width: 20%;
+    float: left;
+  }
+
+}
+
+@media only screen and (max-width:480px) {
+
+  html,
+  body {
+    font-size: 10px;
+  }
+  .nav-box .nav-innerbox {
+    width: 70px;
+    height: 55px;
+  } 
+
+
+}
+
+@media only screen and (max-width:360px) {
+
+  html,
+  body {
+    font-size: 8px;
+  }
+  .nav-box .nav-innerbox {
+    width: 50px;
+    height: 40px;
+  } 
+
+
+}
+
+@media only screen and (max-width:320px) {
+
+  html,
+  body {
+    font-size: 8px;
+  }
+
+}

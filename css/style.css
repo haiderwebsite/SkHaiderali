@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+.my-btn{
+    background-color: #abacad;
+    color: #000000;
+    border-color: #abacad;
+}
+.my-btn:hover{
+    background-color: #0d6efd;
+    color: #fff;
+    border-color: #0d6efd;
+}
+.master{
+    width: 100%;
+    height: max-content;
+    background-image: url(https://mohammad-shahrukh-portfolio.netlify.app/assets/img/bg/bg-2.jpg);
+    background-size: cover;
+}
+.profil{
+    width: 100%;
+    background-color: #bbbcbe;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin: 30px 0;
+}
+.profil .profile-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.profile-container .images{
+    height: 200px;
+}
+.profile-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border: 5px solid #d9d9d9;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    background-color: #d9d9d9;
+    
+}
+.profile-container ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+    padding: 10px 0;
+    margin-bottom: 0px;
+}
+.profile-container h6{
+    color: #343434;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.profile-container ul li{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    align-content: center;
+    font-size: 1.5rem;
+}
+.profile-container .contact-details{
+    width: 100%;
+    background-color: #d9d9d9;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+.contact-details .icons-section{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #abacad;
+}
+.icons-section .icon{
+    width: 25%;
+
+}
+.icon i{
+    font-size: 1.2rem;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 10px;
+    color: #e69852;
+}
+.icons-section .icon-data{
+    width: 75%;
+    padding-left: 2px;
+    text-align: left;
+}
+.icon-data h5{
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: left;
+    
+}
+.icon-data a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* about section start */
+.about{
+    width: 100%;
+
+    background-color: #bcbfc2;
+    border-radius: 10px;
+    padding: 30px 0;
+}
+.about .about-container{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%; 
+}
+
+/* blog css start */
+.bg-add {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    background-image: url(https://i.ibb.co/hD66rzk/cnt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* work css start  */
+.about-container .website-box{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #d9d9d9;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px 0;
+
+}
+.about-details .webbox-data  figcaption{
+    color: #343434;
+    padding-top: 5px;
+    font-size: 1.1rem;
+    
+}
+.webbox-data{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+.website-box img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    background-color: #343434;
+}
+.website-box:hover{
+    transform: scale(1.09);
+    transition: all .5s ease;
+}
+/* work css end */
+
+.about .about-details h1{
+    font-size: 2rem;
+} 
+.about .about-details p{
+    font-size: 0.8rem;
+} 
+.about .about-details h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+} 
+.about .about-details h6{
+    font-size: 1rem;
+    font-weight: 600;
+} 
+.about-details .whatIdo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 10px;
+
+}
+/* resume language css */
+.language-data{
+    border: 1px solid #d9d9d9;
+    background-color: #d9d9d9;
+    align-content: center;
+    padding: 30px ;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+}
+.language-box h6{
+    align-items: center;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+.language{
+    padding: 15px 0;
+}
+
+
+.language span{
+    color: #343434;
+    padding-right: 5px;
+    font-size: 1.5rem;
+}
+.language-box{
+    display: inline-block;
+}
+/* resume language css end */
+.whatIdo .web-development{
+    width: 49%;
+    display: flex;
+    padding: 10px 15px 10px 10px;
+    background-color: #f5dad2;
+    border-radius: 10px;
+    
+}
+.web-development i{
+    padding: 5px 15px;
+    font-size: 1.5rem;
+    color: #9aca05;
+}
+.web-development .web-data h4{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.web-development .web-data p{
+    font-size: 0.8rem;
+    margin: 0;
+}
+.tools{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tools img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.tools .box {
+    margin: 10px 15px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .box:hover {
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-direction: reverse;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+  
+/* nav section  */
+.nav-section{
+    width: 100%;
+    background-color: #bcbec0;
+    border-radius: 10px;
+    animation-direction: normal;
+    padding: 15px 0;
+}
+.nav-section .nav-container{
+    width: 95%;
+    margin: 0 auto;
+    height: 100%;
+
+    border-radius: 10px;
+    
+}
+.nav-container .nav-box{
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    border-radius: 10px;
+}
+.nav-box .nav-innerbox{
+    width: 120px;
+    height: 90px;
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    align-content: center;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    color: #fff;
+}
+.nav-box .active-color{
+    border: #0d6efd;
+    background-color: #0d6efd;
+}
+.active-hover:hover{
+    border: #0d6efd;
+    background-color: #0d6efd;
+}
+.nav-innerbox p{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.nav-innerbox i{
+    font-size: 2rem;
+}
+.footer{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #abacad;
+    border-radius: 15px;
+    text-align: center;
+}
+.footer p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* cursor css start*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  cursor: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/* h1 {
+  font-family: montserrat;
+  font-size: 40px;
+} */
+
+a {
+  font-family: Montserrat;
+  position: relative;
+  text-decoration: none;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 0px;
+  left: 0%;
+  background: black;
+  transition: width .3s ease;
+}
+
+a:hover:after{
+  width: 100%;
+  left: 0%;
+  background: black;
+}
+i:hover:after{
+    width: 100%;
+    left: 0%;
+    background: black;
+}
+.cursor {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid black;
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+  z-index: 1;
+}
+
+.cursor2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: black;
+  opacity: .3;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width .3s, height .3s, opacity .3s;
+  z-index: 1;
+}
+
+.hover {
+  background-color: rgb(185, 1, 1);
+  opacity: 0.5;
+}
+
+.cursorinnerhover {
+  width: 50px;
+  height: 50px;
+  opacity: .5;
+}
+/* cursor css end */
